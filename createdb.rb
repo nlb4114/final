@@ -1,35 +1,46 @@
-# Set up for the application and database. DO NOT CHANGE. #############################
-require "sequel"                                                                      #
-connection_string = ENV['DATABASE_URL'] || "sqlite://#{Dir.pwd}/development.sqlite3"  #
-DB = Sequel.connect(connection_string)                                                #
-#######################################################################################
+# Set up for the application and database. DO NOT CHANGE. ##############
+require "sequel"                                                       #
+DB = Sequel.connect "sqlite://#{Dir.pwd}/development.sqlite3"          #
+########################################################################  
 
 # Database schema - this should reflect your domain model
-DB.create_table! :events do
+
+# New domain model - adds users
+DB.create_table! :hostels do
   primary_key :id
   String :title
   String :description, text: true
-  String :date
-  String :location
+  String :address
+  
 end
-DB.create_table! :rsvps do
+DB.create_table! :reviews do
   primary_key :id
   foreign_key :event_id
+  foreign_key :user_id
   Boolean :going
+  String :comments, text: true
+end
+DB.create_table! :users do
+  primary_key :id
   String :name
   String :email
-  String :comments, text: true
+  String :password
+end
+DB.create_table! :cities do
+  primary_key :id
+  String :name
+  
 end
 
 # Insert initial (seed) data
-events_table = DB.from(:events)
+hostels_table = DB.from(:hostels)
 
-events_table.insert(title: "Bacon Burger Taco Fest", 
-                    description: "Here we go again bacon burger taco fans, another Bacon Burger Taco Fest is here!",
-                    date: "June 21",
-                    location: "Kellogg Global Hub")
+hostels_table.insert(title: "Sant Jordi", 
+                    description: "another one",
+                    address: "some address",
+                                        )
 
-events_table.insert(title: "Kaleapolooza", 
-                    description: "If you're into nutrition and vitamins and stuff, this is the event for you.",
-                    date: "July 4",
-                    location: "Nowhere")
+hostels_table.insert(title: "Kabul", 
+                    description: "Party Hostel in Barecelona",
+                    address: "some address",
+                                    )
