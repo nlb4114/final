@@ -1,0 +1,917 @@
+<body id="pagebody" class="size_medium">
+
+                
+                <div class="off-canvas-wrap" data-offcanvas="">
+            <div class="inner-wrap" style="min-height: 801px;">
+                <div id="smart-banner"></div>
+                <div class="page-contents frcx">
+                    <div class="printheader">Hostelworld.com</div>
+
+<div class="headerback clearfix">
+    <div class="row no-print">
+        <div class="small-12 columns">
+            <div class="logo">
+                <a href="https://www.hostelworld.com/" aria-label="Back to Home Page">
+                </a>
+            </div>
+            <div data-v-26645f64="" class="top-navigation"><ul data-v-26645f64="" class="top-nav-menu"><li data-v-26645f64=""><span data-v-26645f64="" class="user-name">Nicholas Backes</span></li> <li data-v-26645f64="" class="top-loggedin-menu"><!----></li> <li data-v-26645f64="" class="top-user-menu"><span data-v-26645f64="" class="top-icon-holder rounded"><i data-v-26645f64="" class="fa fa-check"></i> <i data-v-26645f64="" class="fa fa-user"></i></span> <!----></li> <li data-v-26645f64="" class="header-wish-lists" style=""><a data-v-26645f64="" href="#" data-dropdown="user-wish-lists-dropdown"><span data-v-26645f64="" class="top-icon-holder rounded usermenu-wish-lists"><i data-v-26645f64="" class="fa fa-heart"></i></span></a> <!----></li> <li data-v-26645f64="" class="top-language-menu"><span data-v-26645f64="" class="top-icon-holder rounded"><div data-v-26645f64="" class="languagelink en"></div></span> <!----></li> <!----> <li data-v-26645f64="" class="topbar-searchicon"><span data-v-26645f64="" class="top-icon-holder rounded"><i data-v-26645f64="" class="fa fa-search"></i></span> <!----></li> <li data-v-26645f64="" class="top-navigation-menu"><a data-v-26645f64="" id="nav-toggle" class="right-off-canvas-toggle menu-icon"><span data-v-26645f64="" class="top-icon-holder rounded"><i data-v-26645f64="" class="fa fa-bars"></i></span></a></li></ul></div>
+        </div>
+    </div>
+</div>
+
+<div id="flash-messages-container" class="small-12 columns"></div>
+
+                    <div id="reflow"></div>
+
+                                        <div class="smallsize"></div>
+                    <div class="mediumsize"></div>
+                    <div class="largesize"></div>
+
+                                            
+    <section name="account-header">
+    <div class="breadcrumbs-back">
+        <div class="row">
+            <div class="small-12 columns">
+                <ul class="breadcrumbs show-for-medium-up">
+                    
+<li><a href="https://www.hostelworld.com/">Home</a></li>
+    <li class="current"><a href="#">My Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section name="account-header-container">
+        <section name="account-header-profile">
+            <i class="fa fa-user-circle avatar"></i>
+            <div class="header-profile-row">
+                <h1>Nicholas Backes</h1>
+                <span class="">Male, 29, USA</span>
+            </div>
+        </section>
+        <section name="account-header-menu">
+            <dl>
+                <dd>
+                    <a href="https://tsecure.hostelworld.com/en/account">
+                        <i class="fa fa-book"></i>
+                        <span>Bookings</span>
+                    </a>
+                </dd>
+                <dd class="active">
+                    <a href="https://tsecure.hostelworld.com/en/account/reviews/">
+                        <i class="fa fa-comment"></i>
+                        <span>Reviews</span>
+                                                    <span class="outstandingreviews">34</span>
+                                            </a>
+                </dd>
+                <dd>
+                    <a href="https://tsecure.hostelworld.com/en/account/wish-lists">
+                        <i class="fa fa-heart"></i>
+                        <span>Wish Lists</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="https://tsecure.hostelworld.com/en/account/settings" class="accountSettings">
+                        <i class="fa fa-cogs"></i>
+                        <span>My Account</span>
+                    </a>
+                </dd>
+            </dl>
+        </section>
+    </section>
+</section>
+
+    <div class="contentbackground">
+        <div class="row pagecontent">
+            <div class="small-12 columns">
+                <div class="result-container">
+                                    </div>
+                <h2>Add Property Review - The Bohemian Chic Hostel</h2>
+                <span class="location"><i class="fa fa-map-marker"></i> 40 Mosque Street, China Town, Singapore, Singapore</span>
+                        <form id="addPropertyReviewForm" method="post" action="https://tsecure.hostelworld.com/en/account/reviews/submitproperty/485955239" data-abide="" novalidate="novalidate">
+
+            <div class="result-container">
+                            </div>
+
+            <br>
+                        <p>By filling in this quick review, you will help fellow travellers to decide on the property that best suits their needs.</p>
+            
+            <div class="clearfix reviewsection ratingsmileys greybox rounded">
+
+            <h3>Rating:</h3>
+
+                <div id="security" class="reviewcircles clearfix" style="border-top: 1px dotted #ccc;">
+                    <i class="fa fa-lock"></i>
+                    <span class="reviewheading">Security *</span>
+
+                    <ul class="inline-list no-bullet facelist group_security">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="security" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="security" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="security" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="security" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="security" class="ratinginput" value="5">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="location" class="reviewcircles clearfix">
+                    <i class="fa fa-map-marker"></i>
+                    <span class="reviewheading">Location *</span>
+
+                    <ul class="inline-list no-bullet facelist group_location">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="location" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="location" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="location" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="location" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="location" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="staff" class="reviewcircles clearfix">
+                    <i class="fa fa-male"></i>
+                    <span class="reviewheading"> Staff *</span>
+                    <ul class="inline-list no-bullet facelist group_staff">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="atmosphere" class="reviewcircles clearfix">
+                    <i class="fa fa-thumbs-up"></i>
+                    <span class="reviewheading">Atmosphere *</span>
+                    <ul class="inline-list no-bullet facelist group_atmosphere">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="cleanliness" class="reviewcircles clearfix">
+                    <i class="fa fa-trash"></i>
+                    <span class="reviewheading">Cleanliness *</span>
+                    <ul class="inline-list no-bullet facelist group_cleanliness">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="valueformoney" class="reviewcircles clearfix">
+                    <i class="fa fa-credit-card"></i>
+                    <span class="reviewheading">Value For Money *</span>
+                    <ul class="inline-list no-bullet facelist group_valueformoney">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="facilities" class="reviewcircles clearfix noborder">
+                    <i class="fa fa-list"></i>
+                    <span class="reviewheading">Facilities *</span>
+                    <ul class="inline-list no-bullet facelist group_facilities">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+
+
+                    <div class="averagescore">
+                        Overall Rating:
+                        <span id="yourscore"></span>
+                    </div>
+                </div>
+
+            </div><div class="greybox rounded cro_section"><h3>Property Type:</h3><p>Which of the following categories best describe the property you stayed in?</p><div class="cro_button_list"><div class="cro_select_button randomize" button_data="11">Historic</div><div class="cro_select_button randomize" button_data="3">No Frills</div><div class="cro_select_button randomize" button_data="2">Adventure</div><div class="cro_select_button randomize" button_data="14">Surf</div><div class="cro_select_button randomize" button_data="10">Wellbeing</div><div class="cro_select_button randomize" button_data="5">Chillout</div><div class="cro_select_button randomize" button_data="4">Eco-friendly</div><div class="cro_select_button randomize" button_data="13">Ski</div><div class="cro_select_button randomize" button_data="1">Party</div><div class="cro_select_button randomize" button_data="12">Arts &amp; Culture</div><div class="cro_select_button randomize" button_data="8">Capsule</div><div class="cro_select_button randomize" button_data="9">Campsite</div><div class="cro_select_button randomize" button_data="7">Activity</div><div class="cro_select_button randomize" button_data="6">Luxury/Boutique</div><div class="cro_select_button" button_data="15">I don't know</div></div></div>
+
+
+
+            <div class="clearfix reviewsection greybox rounded">
+                <h3>My Review:</h3>
+
+                <div class="panel callout lowvalue result">You have rated this property lower than we expected, to help improve the service, please leave a comment below<i class="fa fa-times-circle"></i></div>
+
+                <textarea rows="10" id="notes" name="notes" class="rounded" maxlength="500" style="min-height: 200px;" data-charsleft-id="#notes-charsleft"></textarea>
+                <div class="charactersremaining"><input value="500" id="notes-charsleft" readonly=""> Characters Remaining</div>
+
+                <div class="clearfix message" id="contactCcMessage">
+
+                    <span>Would you like Hostelworld.com's customer service team to contact you regarding your experience?</span>
+
+                    <div class="switch">
+                        <input id="contactCc" type="checkbox" name="callback" value="1">
+                        <label for="contactCc" class="rounded"></label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clearfix reviewsection greybox rounded">
+
+                <h3>My Details:</h3>
+
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                    <li>
+                        <select name="genderType" id="genderType" required="" class="needsclick">
+                            <option selected="" value="">Gender*</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Couple">Couple</option>
+                            <option value="All Male Group">All Male Group</option>
+                            <option value="All Female Group">All Female Group</option>
+                            <option value="Mixed Group">Mixed Group</option>
+                        </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+
+
+                    <li>
+                        <select name="ageGroup" required="" class="needsclick">
+                            <option selected="" value="">Age*</option>
+                            <option value="18-24">18-24</option>
+                            <option value="25-30">25-30</option>
+                            <option value="31-40">31-40</option>
+                            <option value="41+">41+</option>
+                        </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+
+                    <li>
+                        <select name="tripType" id="tripType" required="" class="needsclick">
+                            <option selected="" value="">Trip Type*</option>
+                            <option value="College Break">College Break</option>
+                            <option value="Weekend Away">Weekend Away</option>
+                            <option value="Gap Year">Gap Year</option>
+                            <option value="RTW Trip">RTW Trip</option>
+                            <option value="Regular Vacation">Regular Vacation</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+
+
+                    <li>
+                        <select name="reviewLanguage" id="reviewLanguage" class="nomargin needsclick" required="">
+                            <option selected="selected" value="">Review Language*</option>
+                                                            <option value="DA">Dansk</option>
+                                                            <option value="DE">Deutsch</option>
+                                                            <option value="EN" selected="">English</option>
+                                                            <option value="ES">Español</option>
+                                                            <option value="FR">Français</option>
+                                                            <option value="IT">Italiano</option>
+                                                            <option value="NL">Nederlands</option>
+                                                            <option value="NO">Norsk</option>
+                                                            <option value="PL">Polski</option>
+                                                            <option value="PT">Português</option>
+                                                            <option value="BR">Português (Brasil)</option>
+                                                            <option value="SV">Svenska</option>
+                                                            <option value="TR">Türk</option>
+                                                            <option value="FI">suomi</option>
+                                                            <option value="CS">český</option>
+                                                            <option value="RU">Русский</option>
+                                                            <option value="ZH">中文</option>
+                                                            <option value="JA">日本語</option>
+                                                            <option value="KO">한국어</option>
+                                                    </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="clearfix reviewsection greybox rounded">
+
+                <h3>Would you recommend Hostelworld.com?</h3>
+
+
+                    <select name="likelyrecommend" style="margin-bottom:0.5rem;" class="needsclick">
+                        <option value="3">Definitely</option>
+                        <option value="2">Likely</option>
+                        <option value="0">Unlikely</option>
+                    </select>
+
+                    <textarea maxlength="500" rows="5" id="likelyrecommendnotes" name="likelyrecommendnotes" class="rounded" data-charsleft-id="#recommendnotes-charsleft" placeholder="Why?"></textarea>
+                    <div class="charactersremaining"><input value="500" id="recommendnotes-charsleft" readonly=""> Characters Remaining</div>
+
+            </div>
+
+            <div class="clearfix reviewsection">
+
+                <div class="leftheader reviewline">*Your review will appear on Hostelworld.com Ltd websites and on selected partner sites</div>
+                <input type="hidden" value="1" name="fromBooking">
+                <div class="rightdiv">
+                    <button title="" type="submit" rel="no-follow" class="tiny radius s_orange right">Submit Review</button>
+                </div>
+            </div>
+                </form>
+        <script type="text/template" id="successMessageTemplate">
+            <div class="panel callout success result"><%= message %> <i class="fa fa-times-circle"></i></div>
+        </script>
+        <script type="text/template" id="errorMessageTemplate">
+            <div class="panel callout error result"><%= message %> <i class="fa fa-times-circle"></i></div>
+        </script>
+            </div>
+        </div>
+    </div>
+
+    
+	<div id="viewcityreviewModal" class="reveal-modal medium" data-reveal="">
+        <div class="modal_overflow">
+
+            <div class="small-12 columns">
+                <div class="myaccount circle">
+                    <i class="fa fa-comment circleicon"></i>
+                </div>
+
+                <h2>My City Review</h2>
+                
+<div class="reviewlisting clearfix">
+
+    <div class="travelerdetails">
+        <ul class="no-bullet">
+            <li class="avatarimage clearfix"><div class="circle avatar"></div></li>
+            <li class="reviewername blue">mankourabdel9177</li>
+            <li class="reviewerdetails">France, Male, 25-30</li>
+            <li class="reviewerrank">Novice Nomad</li>
+            <li class="reviewernumber">(1 review)</li>
+        </ul>
+    </div>
+
+	<div class="reviewdetails rounded">
+		<div class="reviewarrow"></div>
+
+        <div class="ratingsection">
+            <span class="reviewdate"><i class="fa fa-calendar"></i> 28th Jun 2015</span>
+            <div class="textrating blue"><i class="fa fa-comment-o"></i> <strong>83%</strong></div>
+        </div>
+
+        <h3>Crazy times in London</h3>
+
+		<div class="reviewtext">
+			<p>Beef ribs capicola pork kielbasa, ribeye pig chuck chicken biltong sirloin. Boudin pork belly shankle beef ground round turkey ribeye, landjaeger doner shoulder. Pork belly sausage pork, chicken corned beef pig meatball cow kevin tail bresaola kielbasa. Salami kevin swine beef leberkas tri-tip.</p>
+		</div>
+
+        <br>
+
+        <h3>Insider Tip for London</h3>
+
+        <p>Beef ribs capicola pork kielbasa, ribeye pig chuck chicken biltong sirloin. Boudin pork belly shankle beef ground round turkey ribeye, landjaeger doner shoulder. Pork belly sausage pork, chicken corned beef pig meatball cow kevin tail bresaola kielbasa. Salami kevin swine beef leberkas tri-tip.</p>
+
+		<ul class="show-for-medium-up small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+			<li class="ratinglist">
+				<ul class="ratingbreakdown no-bullet">
+					 <li><span>96%</span>Value For Money</li>
+					 <li><span>82%</span>Culture</li>
+					 <li><span>83%</span>Partying</li>
+                     <li><span>96%</span>Shopping</li>
+                     <li><span>82%</span>Sightseeing</li>
+
+				</ul>
+			</li>
+			<li class="ratinglist">
+				<ul class="ratingbreakdown no-bullet">
+					 <li><span>78%</span>Getting Around</li>
+					 <li><span>55%</span>Activities</li>
+					 <li><span>61%</span>Eating Out</li>
+                     <li><span>78%</span>Chilling Out</li>
+                     <li><span>55%</span>Weather</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	
+</div>
+                <button title="" type="submit" rel="no-follow" class="tiny radius s_orange right" data-reveal-id="reviewthanksModal">Submit Review</button>
+                <button title="" type="submit" rel="no-follow" class="tiny radius s_orange left" data-reveal-id="cityreviewModal">Back</button>
+            </div>
+
+        </div>
+		<a class="close-reveal-modal">×</a>
+	</div>
+
+    
+	<div id="reviewthanksModal" class="reveal-modal medium" data-reveal="">
+        <div class="modal_overflow">
+
+            <div class="small-12 columns">
+                <div class="myaccount circle">
+                    <i class="fa fa-smile-o circleicon"></i>
+                </div>
+
+                <h2>Thank You!</h2>
+
+                <p>Thank you for your feedback on your accommodation, if you have a minute we’d also like to get your opinion on <strong>Singapore</strong>. What did you think of it? Would you recommend it to your friends? Do you have any tips for your fellow travellers?</p>
+            </div>
+
+        </div>
+		<a class="close-reveal-modal">×</a>
+	</div>
+
+                    
+                    <!-- footer -->
+<footer><section name="hp-mobile" class="pt-2"><div class="d-flex mobile-apps-container py-5"><div class="mobile-column mobilefloat"><div class="mobile-wrapper align-center"><h3>Hostelworld Mobile Apps</h3><a href="https://w5az.app.link/FNYT35jpl1" class="rounded mobilelink playstore"><img src="//ucd.hwstatic.com/appdownload_buttons/play_store/playstore_en.png" alt="Download on Play Store"></a><a href="https://w5az.app.link/udTaos3ol1" target="_blank" class="rounded mobilelink" rel="noopener noreferrer"><img src="//ucd.hwstatic.com/appdownload_buttons/app_store/appstore_en.png" alt="Download on App Store"></a> <p class="mt-1">Book on the go with the new Hostelworld mobile apps.</p></div></div> <div class="mobile-column column-title"><h3>Search and book more than 36,000 properties in over 178 countries, from anywhere.</h3></div></div></section> <section name="footer-links" class="py-5"><div class="footer no-print"><div class="footer-links-container px-1"><div class="links-list px-1"><b>Accommodation</b> <div data-v-8f2f523e="" class="list-navigation"><!----> <ul data-v-8f2f523e=""><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/hostels"><!---->
+                Hostels
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/hotels"><!---->
+                Hotels
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/bed-and-breakfasts"><!---->
+                Bed and Breakfasts
+            </a></li></ul></div></div> <div class="links-list px-1"><b>Quick Links</b> <div data-v-8f2f523e="" class="list-navigation"><!----> <ul data-v-8f2f523e=""><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/blog/" rel="noopener noreferrer" target="_blank"><!---->
+                Blog
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/groups" rel="noopener noreferrer" target="_blank"><!---->
+                Group Bookings
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/guarantee" rel="noopener noreferrer" target="_blank"><!---->
+                Booking Guarantee
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.hostelworld.com/hoscars" rel="noopener noreferrer" target="_blank"><!---->
+                Hostel Awards
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="http://www.cars.hostelworld.com/en/gt/?clientId=853419" rel="noopener noreferrer" target="_blank"><!---->
+                Airport Transfers
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="http://www.cars.hostelworld.com/en/?clientId=829738" rel="noopener noreferrer" target="_blank"><!---->
+                Car Rentals
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="http://flights.hostelworld.com/en-GB/flights" rel="noopener noreferrer" target="_blank"><!---->
+                Flights
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://hostelworld.musement.com/us?aid=HostelworldWL&amp;cid=hwrwdfooter" rel="noopener noreferrer" target="_blank"><!---->
+                Tours &amp; Experiences
+            </a></li></ul></div></div> <div class="links-list px-1"><b>About Us</b> <div data-v-8f2f523e="" class="list-navigation"><!----> <ul data-v-8f2f523e=""><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="http://www.hostelworldgroup.com" rel="noopener noreferrer" target="_blank"><!---->
+                Hostelworld Group PLC
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="http://www.hostelworldgroup.com/media/press-releases/" rel="noopener noreferrer" target="_blank"><!---->
+                Press
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YGTUCX&amp;sid=YAZGTF" rel="noopener noreferrer" target="_blank"><!---->
+                Careers
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://signup.hostelworld.com/en/property/intro" rel="noopener noreferrer" target="_blank"><!---->
+                Hostel Sign Up
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="http://partners.hostelworld.com" rel="noopener noreferrer" target="_blank"><!---->
+                Affiliate Program
+            </a></li></ul></div></div> <div class="links-list px-1"><b>Find Us On</b> <div data-v-8f2f523e="" class="list-navigation"><!----> <ul data-v-8f2f523e=""><!----><!----><!----><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.facebook.com/hostelworld" rel="noopener noreferrer" title="Hostelworld Facebook" target="_blank"><i data-v-8f2f523e="" class="fa fa-facebook"></i>
+                Hostelworld Facebook
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://twitter.com/hostelworld" rel="noopener noreferrer" title="Hostelworld Twitter" target="_blank"><i data-v-8f2f523e="" class="fa fa-twitter"></i>
+                Twitter
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.youtube.com/user/hostelworld" rel="noopener noreferrer" title="Hostelworld YouTube" target="_blank"><i data-v-8f2f523e="" class="fa fa-youtube"></i>
+                YouTube
+            </a></li><li data-v-8f2f523e=""><a data-v-8f2f523e="" href="https://www.instagram.com/hostelworld/" rel="noopener noreferrer" title="Hostelworld Instagram" target="_blank"><i data-v-8f2f523e="" class="fa fa-instagram"></i>
+                Hostelworld Instagram
+            </a></li></ul></div></div></div></div></section> <section name="footer-copyright" class="py-5"><div class="copyright px-1"><div class="footer_legal pb-1"><div class="securebadge"></div> <span>© 1999–2020 Hostelworld.com Limited</span> <div class="legal-info"><a href="https://www.hostelworld.com/securityprivacy.php" target="_blank" rel="noopener noreferrer">Data Protection Notice</a> |
+                    <a href="https://www.hostelworld.com/hosteltermsandconditions.php" target="_blank" rel="noopener noreferrer">Terms &amp; Legal</a> |
+                    <a href="https://www.hostelworld.com/website-testing" target="_blank" rel="noopener noreferrer">Website Testing</a> |
+                    <a href="https://www.hostelworld.com/hwsitemap/">Site Map</a> | <div id="gdpr-consent" style="display: inline;"></div></div></div> <a href="https://hwhelp.hostelworldgroup.com/hc/en-us" target="_blank" rel="noopener noreferrer" class="help pt-1"><i class="fa fa-question-circle"></i>Help
+            </a></div></section> <section name="backtotop" class="py-5"><div class="backtotop-container no-print px-1"><div class="social-links px-1 mb-2"><ul><li><a target="_blank" href="https://www.facebook.com/Hostelworld" title="Hostelworld Facebook" rel="noopener noreferrer"><i class="fa fa-facebook featureicon"></i></a></li> <li><a target="_blank" href="https://twitter.com/hostelworld" title="Hostelworld Twitter" rel="noopener noreferrer"><i class="fa fa-twitter featureicon"></i></a></li> <li><a target="_blank" href="https://www.youtube.com/user/hostelworld" title="Hostelworld YouTube" rel="noopener noreferrer"><i class="fa fa-youtube featureicon"></i></a></li> <li><a target="_blank" href="https://www.instagram.com/hostelworld/" title="Instagram" rel="noopener noreferrer"><i class="fa fa-instagram featureicon"></i></a></li></ul></div> <a href="#" class="gototop"><i class="fa fa-arrow-circle-o-up"></i> <span>Back to top</span></a></div></section></footer>
+
+
+    <!-- Off Canvas Menu -->
+<aside class="right-off-canvas-menu">
+    <!---->
+
+    <noscript>
+        <ul>
+                            <li><a href="https://tsecure.hostelworld.com/en/account/reviews/add/485955239?fromBooking=1" title="English" alt="English">English</a></li><li><a href="https://tsecure.hostelworld.com/de/account/reviews/add/485955239?fromBooking=1" title="Deutsch" alt="Deutsch">Deutsch</a></li><li><a href="https://tsecure.hostelworld.com/fr/account/reviews/add/485955239?fromBooking=1" title="Français" alt="Français">Français</a></li><li><a href="https://tsecure.hostelworld.com/it/account/reviews/add/485955239?fromBooking=1" title="Italiano" alt="Italiano">Italiano</a></li><li><a href="https://tsecure.hostelworld.com/es/account/reviews/add/485955239?fromBooking=1" title="Español" alt="Español">Español</a></li><li><a href="https://tsecure.hostelworld.com/pt/account/reviews/add/485955239?fromBooking=1" title="Português" alt="Português">Português</a></li><li><a href="https://tsecure.hostelworld.com/br/account/reviews/add/485955239?fromBooking=1" title="Português (Brasil)" alt="Português (Brasil)">Português (Brasil)</a></li><li><a href="https://tsecure.hostelworld.com/sv/account/reviews/add/485955239?fromBooking=1" title="Svenska" alt="Svenska">Svenska</a></li><li><a href="https://tsecure.hostelworld.com/pl/account/reviews/add/485955239?fromBooking=1" title="Polski" alt="Polski">Polski</a></li><li><a href="https://tsecure.hostelworld.com/fi/account/reviews/add/485955239?fromBooking=1" title="suomi" alt="suomi">suomi</a></li><li><a href="https://tsecure.hostelworld.com/da/account/reviews/add/485955239?fromBooking=1" title="Dansk" alt="Dansk">Dansk</a></li><li><a href="https://tsecure.hostelworld.com/nl/account/reviews/add/485955239?fromBooking=1" title="Nederlands" alt="Nederlands">Nederlands</a></li><li><a href="https://tsecure.hostelworld.com/no/account/reviews/add/485955239?fromBooking=1" title="Norsk" alt="Norsk">Norsk</a></li><li><a href="https://tsecure.hostelworld.com/cs/account/reviews/add/485955239?fromBooking=1" title="český" alt="český">český</a></li><li><a href="https://tsecure.hostelworld.com/ru/account/reviews/add/485955239?fromBooking=1" title="Русский" alt="Русский">Русский</a></li><li><a href="https://tsecure.hostelworld.com/tr/account/reviews/add/485955239?fromBooking=1" title="Türk" alt="Türk">Türk</a></li><li><a href="https://tsecure.hostelworld.com/ja/account/reviews/add/485955239?fromBooking=1" title="日本語" alt="日本語">日本語</a></li><li><a href="https://tsecure.hostelworld.com/ko/account/reviews/add/485955239?fromBooking=1" title="한국어" alt="한국어">한국어</a></li><li><a href="https://tsecure.hostelworld.com/zh/account/reviews/add/485955239?fromBooking=1" title="中文" alt="中文">中文</a></li>                    </ul>
+    </noscript>
+
+</aside>
+
+    <div id="reauth-modal"><!----></div>
+    <div id="reAuthModal" class="reveal-modal small" data-reveal="">
+    <div class="modal_overflow">
+        <div class="centered-heading">
+            <h2>Session Expired</h2>
+            <p v-show="!isProcessingRequest">Please enter the password for the account
+                <span class="user-email">&lt;% email %&gt;</span>
+            </p>
+        </div>
+        <div v-show="!isProcessingRequest">
+            <div class="messages">
+                <message v-for="(message, id) in messages" :message="message.message" :type="message.type" @remove="removeMessage(id)" :key="id"></message>
+            </div>
+            <form @submit.prevent="login">
+                <div class="password-wrapper">
+                    <span class="forminputlabel">Password</span>
+                    <input v-model="password" type="password" placeholder="Password" autocomplete="off">
+                </div>
+                <div class="cta-main-block">
+                    <a class="skip-btn" @click="logout" v-show="enableSkipButton">Skip &amp; Continue</a>
+                    <button title="" type="submit" rel="no-follow" class="tiny radius s_orange right">Login</button>
+                </div>
+            </form>
+            <span class="login-forgotten" @click="passwordReset">Forgot password?</span>
+        </div>
+        <div class="loginLoader" v-show="isProcessingRequest"></div>
+    </div>
+    <a class="close-reveal-modal">×</a>
+</div>
+
+<input type="hidden" id="cdnUrl" value="//icd.hwstatic.com/static/dist/4.46.1.0/">
+
+<div id="loginModal" class="reveal-modal small" data-reveal=""></div>
+<div id="forgottenpasswordModal" class="reveal-modal small" data-reveal=""></div>
+<div id="privacyModal" class="reveal-modal medium" data-reveal=""></div>
+<div id="contactModal" class="reveal-modal medium" data-reveal=""></div>
+
+                </div>
+
+                                <a class="exit-off-canvas"></a>
+            </div>
+            <div id="dynamic-components"><!----> <!----></div>
+        </div>
+
+        
+        <!-- SiteCatalyst code version: H.22.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+
+<script type="text/javascript" src="//ucd.hwstatic.com/hw/scode/s_code-20181112.js"></script>
+<script language="JavaScript" type="text/javascript">
+if(typeof s === 'undefined'){s={}};
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s.channel = 'myworld';
+s.eVar33 = 't.hostelworld.com';
+s.eVar34 = 'english site';
+s.eVar45 = 'lb';
+s.eVar250 = '4.46.1.0';
+s.pageName = 'myworld add hostel review';
+s.prop26 = 'www.hostelworld.com';
+s.prop28 = 'english';
+s.prop36 = 'logged in';
+s.prop37 = 'standard';
+s.prop44 = 'myworld';
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+//Added type checking in case the s_code file is blocked (HW-3228)
+if(typeof(s.t) === 'function'){var s_code=s.t();if(s_code)document.write(s_code)}</script>
+<script language="JavaScript" type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+</script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->            <!-- Google Tag Manager dataLayer -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        "gtmSiteLang": "en",
+        "gtmPageName": "myWorldAddPropertyReview",
+        "gtmApplicationEnv": "production",
+                "gtmClassification": "myWorld",
+                                "gtmQuancastPage": "My+World",
+                                                                                                                                                                                                                                                        "gtmUser" : "",
+                                                                                "gtmHwReleaseVersion" : "4.46.1.0",
+                "gtmIpCountry": "United States",
+                                    });
+</script>
+
+
+
+<!-- End Google Tag Manager dataLayer -->
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KBCQMF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBCQMF');</script>
+    <!-- End Google Tag Manager -->
+        <script type="text/javascript">
+    var currencyList = {"EUR":{"label":"Euro","symbol":"&euro;","toEUR":1,"fromEUR":1,"h":1},"USD":{"label":"US Dollar","symbol":"US$","toEUR":1.114595396039604,"fromEUR":0.897302396039604,"h":1.01},"GBP":{"label":"British Pound","symbol":"&pound;","toEUR":0.869217603960396,"fromEUR":1.150745702970297,"h":1.01}};
+
+    for (var code in currencyList) {
+        if (currencyList.hasOwnProperty(code)) {
+            currencyList[code]['code'] = code;
+       }
+    }
+
+    window.AppState = {
+        locale: 'en',
+        rootCookieDomain: '.hostelworld.com',
+        currentBaseUrl: 'https://tsecure.hostelworld.com/en',
+        secureBaseUrl: 'https://tsecure.hostelworld.com/en',
+        currency: {
+            browsingCurrency: 'USD',
+            list: currencyList,
+            c: 1.05,
+            showSymbol: 1,
+            decimals: 2,
+            roundedCurrencies: ["CLP","DJF","JPY","KMF","KRW","PYG","RWF","VND","VUV","XAF","XOF","XPF"]
+        },
+        microsite: {
+            isDynamic: !!+''
+        },
+        tokens: {
+            CSRFToken: ''
+        }
+    };
+
+            var DEFAULT_SEARCH_DAYS_FROM = 1;
+        var DEFAULT_SEARCH_DAYS_TO = 4;
+        var isDynamic = '';
+
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        var dateFrom = new Date(
+            Number('2020'),
+            Number('03') - 1,
+            Number('05')
+        );
+
+        var dateTo = new Date(
+            Number('2020'),
+            Number('03') - 1,
+            Number('05')
+        );
+
+        if (dateFrom.getTime() < today.getTime()) {
+            dateFrom = today;
+        }
+
+        if (!isDynamic) {
+            dateFrom.setDate(dateFrom.getDate() + DEFAULT_SEARCH_DAYS_FROM);
+            dateTo.setDate(dateTo.getDate() + DEFAULT_SEARCH_DAYS_TO);
+        }
+
+        window.AppState['search'] = {
+            id: parseInt('', 10),
+            cityId: parseInt('', 10),
+            name: '',
+            type: '',
+            dateFrom: dateFrom,
+            dateTo: dateTo,
+            numberOfGuests: 2,
+            groupType: '',
+            ageRanges: [],
+            keywords: '',
+            affiliateMetaId: '',
+            ppcPropertyId: '',
+            isDynamic: isDynamic
+        };
+    
+    </script>
+        <script type="text/javascript" src="//icd.hwstatic.com/static/dist/4.46.1.0/i18n/en.js"></script>
+
+                    <script src="//icd.hwstatic.com/static/dist/4.46.1.0/js/app.bundle.js"></script>
+        
+        
+                                                <script type="text/javascript" src="//icd.hwstatic.com/static/js/4.46.1.0/global_deployed.js"></script>
+                            <script type="text/javascript" src="//icd.hwstatic.com/static/js/4.46.1.0/accountsec.js"></script>
+                            <script type="text/javascript" src="//icd.hwstatic.com/static/js/4.46.1.0/account_reviews_add_deployed.js"></script>
+                    
+        <script type="text/javascript">
+    //HwReg
+        HwReg.set('baseUrl','https://www.hostelworld.com');
+    HwReg.set('homepageUrl','https://www.hostelworld.com/');
+    HwReg.set('hostelsUrl','https://www.hostelworld.com/hostels');
+    HwReg.set('currentBaseUrl','https://tsecure.hostelworld.com/en');
+    HwReg.set('secureBaseUrl','https://tsecure.hostelworld.com/en');
+    HwReg.set('rootCookieDomain','.hostelworld.com');
+    HwReg.set('language','en');
+    HwReg.set('controller', 'account_reviews');
+    HwReg.set('action', 'add');
+    HwReg.set('staticImageURI', '//icd.hwstatic.com/static/images/4.46.1.0/');
+    HwReg.set('staticJavascriptURI', '//icd.hwstatic.com/static/js/4.46.1.0/');
+    HwReg.set('roundedCurrencies', ["CLP","DJF","JPY","KMF","KRW","PYG","RWF","VND","VUV","XAF","XOF","XPF"]);
+    HwReg.set('ipCountry','United States');
+    HwReg.set('browser','Chrome');
+    HwReg.set('sortOrderMultiArmedBanditTesting', 0);
+
+                    HwReg.set('ipCity', {
+                    'cityNo': '5',
+                    'cityName': 'Dublin',
+                    'englishCityName': 'Dublin',
+                    'countryNo': '103',
+                    'countryName': 'Ireland',
+                    'englishCountryName': 'Ireland',
+                });
+                HwReg.set('dayNames', [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ]);
+        HwReg.set('abbrDayNames', [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ]);
+        HwReg.set('tinyDayNames', [ 'S', 'M', 'T', 'W', 'T', 'F', 'S' ]);
+        HwReg.set('monthNames', [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ]);
+        HwReg.set('abbrMonthNames', [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ]);
+    
+            HwReg.set('dateFrom', '2020-03-25');
+        HwReg.set('dateTo', '2020-03-27');
+    
+    Date.format = 'dd mmm yyyy';
+    WRI.eventBus.trigger('hwreg:init');
+</script>
+    
+
+<div id="exsv" name="exsv" style="display: none;">1</div><script type="text/javascript" id="">null==$.cookie("hw_site")&&(window.location.href.match(/^http:\/\/t\.[a-z\.]*hostelworld\.com/)?$.cookie("hw_site","RWD",{expires:365,path:"/",domain:".hostelworld.com",secure:!1}):$.cookie("hw_site","CL",{expires:365,path:"/",domain:".hostelworld.com",secure:!1}));</script><script type="text/javascript" id="">od_current_UTCstring=(new Date).toUTCString();function od_helper_setCookie(a,e,c){d=new Date;d.setTime(d.getTime()+864E5*a);expires="expires\x3d"+d.toUTCString();path="path\x3d/";domain=".hostelworld.com";document.cookie=e+"\x3d"+c+";"+expires+";"+path+";domain\x3d"+domain}function od_helper_getCookie(a){a+="\x3d";for(var e=document.cookie.split(";"),c=0;c<e.length;c++){for(var b=e[c];" "==b.charAt(0);)b=b.substring(1);if(0===b.indexOf(a))return b.substring(a.length,b.length)}return""}
+function od_nowUTC(){var a=new Date;a=new Date(a.getUTCFullYear(),a.getUTCMonth(),a.getUTCDate(),a.getUTCHours(),a.getUTCMinutes(),a.getUTCSeconds());return a=Date.parse(a)}od_helper_getCookie("od_fvisit")||od_helper_setCookie(364,"od_fvisit",od_nowUTC());</script><div style="display: none; visibility: hidden;"><script>(function(b,c,e,f,d){b[d]=b[d]||[];var g=function(){var a={ti:"5306710"};a.q=b[d];b[d]=new UET(a);b[d].push("pageLoad")};var a=c.createElement(e);a.src=f;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(g(),a.onload=a.onreadystatechange=null)};c=c.getElementsByTagName(e)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript></noscript></div><script type="text/javascript" id="">function setCookie(a,b){a=a+"\x3d"+b+"; path\x3d/; domain\x3d."+location.hostname.replace(/^www\./i,"")+"; SameSite\x3dStrict";"development"!==google_tag_manager["GTM-KBCQMF"].macro(7)&&(a+="; secure");document.cookie=a}function getCookie(a){for(var b=document.cookie.split(";"),e,c=0;c<b.length;c++){var d=b[c].trim();0===d.indexOf(a+"\x3d")&&(e=d.substring((a+"\x3d").length,d.length))}return e}(function(){var a=getCookie("hwpageviews");"undefined"===typeof a?a=1:a++;setCookie("hwpageviews",a,0)})();</script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.2972631745482819"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.4944048631296749" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=5306710&amp;Ver=2&amp;mid=e859a82a-2f99-d208-4219-a451d7ffa598&amp;pi=1200101525&amp;lg=en-US&amp;sw=1680&amp;sh=1050&amp;sc=24&amp;p=https%3A%2F%2Ftsecure.hostelworld.com%2Fen%2Faccount%2Freviews%2Fadd%2F485955239%3FfromBooking%3D1&amp;r=https%3A%2F%2Ftsecure.hostelworld.com%2Fen%2Faccount%2Freviews%2F&amp;lt=1230&amp;evt=pageLoad&amp;msclkid=N&amp;rn=290243"></div><script type="text/javascript" id="">var parent=document.querySelector(".footer_legal").children[2],trustArc=document.createElement("div");trustArc.id="gdpr-consent";trustArc.style.display="inline";parent.innerHTML+=" | ";parent.appendChild(trustArc);var trustArcCookieBanner=document.createElement("div");trustArcCookieBanner.id="consent_blackbar";trustArcCookieBanner.classList.add("cookie-notice");document.querySelector("body").appendChild(trustArcCookieBanner);
+var trustArcInitScript=document.createElement("script"),trustArcInitScriptSrc="//consent.trustarc.com/notice?domain\x3dhostelworld.com\x26c\x3dgdpr-consent\x26gtm\x3d1\x26js\x3dbb\x26noticeType\x3dbb\x26language\x3den\x26language\x3dtrue\x26text\x3dtrue\x26cookieLink\x3d"+encodeURIComponent("//tsecure.hostelworld.com/cookiespolicy.php")+"\x26privacypolicylink\x3d"+encodeURIComponent("//tsecure.hostelworld.com/securityprivacy.php");trustArcInitScript.setAttribute("async","async");
+trustArcInitScript.setAttribute("src",trustArcInitScriptSrc);trustArcInitScript.setAttribute("crossorigin","");document.querySelector("body").appendChild(trustArcInitScript);trustArcBucketsIds={TrustArcGoogleAdv:1};window.top.postMessage(JSON.stringify({PrivacyManagerAPI:{action:"getConsent",timestamp:(new Date).getTime(),self:"hostelworld.com"}}),"*");
+window.addEventListener("message",function(b){try{var a=JSON.parse(b.data)}catch(f){return}if(a&&"submit_preferences"===a.message){b={};for(var c in trustArcBucketsIds){var d=trustArcBucketsIds[c],e="undefined"!==typeof a.data.value?a.data.value:a.data;b[c]=e.includes(d)}window.WRI.eventBus.trigger("trustArcBucketsStatus",{status:b})}},!1);
+for(var trustArcCookieConsent="",bucketsStatus={},cookies=document.cookie.split(";"),i=0;i<cookies.length;i++){var cookie=cookies[i].split("\x3d");"cmapi_cookie_privacy"===cookie[0].trim()&&(trustArcCookieConsent=cookie[1])}for(var bucket in trustArcBucketsIds){var bucketIdx=trustArcBucketsIds[bucket]+1;bucketsStatus[bucket]=trustArcCookieConsent.includes(bucketIdx)}window.WRI.eventBus.trigger("trustArcBucketsStatus",{status:bucketsStatus});</script><div id="consent_blackbar" class="cookie-notice"></div><script async="async" src="//consent.trustarc.com/notice?domain=hostelworld.com&amp;c=gdpr-consent&amp;gtm=1&amp;js=bb&amp;noticeType=bb&amp;language=en&amp;language=true&amp;text=true&amp;cookieLink=%2F%2Ftsecure.hostelworld.com%2Fcookiespolicy.php&amp;privacypolicylink=%2F%2Ftsecure.hostelworld.com%2Fsecurityprivacy.php" crossorigin=""></script><div style="display: none; visibility: hidden;"><script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script> 
+<script type="text/javascript">if(!wcs_add)var wcs_add={};wcs_add.wa="s_19981b418274";if(!_nasa)var _nasa={};wcs.inflow("hostelworld.com");wcs_do(_nasa);</script>
+</div></body>

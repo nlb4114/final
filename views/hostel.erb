@@ -6,6 +6,11 @@
     <div class="col-md 6">
         <img src="<%= @hostel[:img_url] %>"  alt="idk" class = "responsive">
         <h1><%= @hostel[:title] %></h1>
+        
+        <div class = "recommend" >
+        <h4>Recommended by</h4>
+         <p><%= @recommend_count %> people</p>
+        </div>
 
         <div class = address>
             <p> Address </p>

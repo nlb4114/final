@@ -1,0 +1,435 @@
+<form id="addPropertyReviewForm" method="post" action="https://tsecure.hostelworld.com/en/account/reviews/submitproperty/485955239" data-abide="" novalidate="novalidate">
+
+            <div class="result-container">
+                            </div>
+
+            <br>
+                        <p>By filling in this quick review, you will help fellow travellers to decide on the property that best suits their needs.</p>
+            
+            <div class="clearfix reviewsection ratingsmileys greybox rounded">
+
+            <h3>Rating:</h3>
+
+                <div id="security" class="reviewcircles clearfix" style="border-top: 1px dotted #ccc;">
+                    <i class="fa fa-lock"></i>
+                    <span class="reviewheading">Security *</span>
+
+                    <ul class="inline-list no-bullet facelist group_security">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="security" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="security" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="security" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="security" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="security" class="ratinginput" value="5">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="location" class="reviewcircles clearfix">
+                    <i class="fa fa-map-marker"></i>
+                    <span class="reviewheading">Location *</span>
+
+                    <ul class="inline-list no-bullet facelist group_location">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="location" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="location" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="location" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="location" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="location" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="staff" class="reviewcircles clearfix">
+                    <i class="fa fa-male"></i>
+                    <span class="reviewheading"> Staff *</span>
+                    <ul class="inline-list no-bullet facelist group_staff">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="staff" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="atmosphere" class="reviewcircles clearfix">
+                    <i class="fa fa-thumbs-up"></i>
+                    <span class="reviewheading">Atmosphere *</span>
+                    <ul class="inline-list no-bullet facelist group_atmosphere">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="atmosphere" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="cleanliness" class="reviewcircles clearfix">
+                    <i class="fa fa-trash"></i>
+                    <span class="reviewheading">Cleanliness *</span>
+                    <ul class="inline-list no-bullet facelist group_cleanliness">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="cleanliness" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="valueformoney" class="reviewcircles clearfix">
+                    <i class="fa fa-credit-card"></i>
+                    <span class="reviewheading">Value For Money *</span>
+                    <ul class="inline-list no-bullet facelist group_valueformoney">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="valueformoney" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="facilities" class="reviewcircles clearfix noborder">
+                    <i class="fa fa-list"></i>
+                    <span class="reviewheading">Facilities *</span>
+                    <ul class="inline-list no-bullet facelist group_facilities">
+                        <li>
+                            <label>
+                                <div class="facerating rating1"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="1" required="">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating2"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="2">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating3"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="3">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating4"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="4">
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <div class="facerating rating5"></div>
+                                <input type="radio" name="facilities" class="ratinginput" value="5">
+
+                            </label>
+                        </li>
+                    </ul>
+
+
+                    <div class="averagescore">
+                        Overall Rating:
+                        <span id="yourscore"></span>
+                    </div>
+                </div>
+
+            </div><div class="greybox rounded cro_section"><h3>Property Type:</h3><p>Which of the following categories best describe the property you stayed in?</p><div class="cro_button_list"><div class="cro_select_button randomize" button_data="9">Campsite</div><div class="cro_select_button randomize" button_data="8">Capsule</div><div class="cro_select_button randomize" button_data="7">Activity</div><div class="cro_select_button randomize" button_data="6">Luxury/Boutique</div><div class="cro_select_button randomize" button_data="5">Chillout</div><div class="cro_select_button randomize" button_data="13">Ski</div><div class="cro_select_button randomize" button_data="11">Historic</div><div class="cro_select_button randomize" button_data="4">Eco-friendly</div><div class="cro_select_button randomize" button_data="3">No Frills</div><div class="cro_select_button randomize" button_data="2">Adventure</div><div class="cro_select_button randomize" button_data="10">Wellbeing</div><div class="cro_select_button randomize" button_data="1">Party</div><div class="cro_select_button randomize" button_data="14">Surf</div><div class="cro_select_button randomize" button_data="12">Arts &amp; Culture</div><div class="cro_select_button" button_data="15">I don't know</div></div></div>
+
+
+
+            <div class="clearfix reviewsection greybox rounded">
+                <h3>My Review:</h3>
+
+                <div class="panel callout lowvalue result">You have rated this property lower than we expected, to help improve the service, please leave a comment below<i class="fa fa-times-circle"></i></div>
+
+                <textarea rows="10" id="notes" name="notes" class="rounded" maxlength="500" style="min-height: 200px;" data-charsleft-id="#notes-charsleft"></textarea>
+                <div class="charactersremaining"><input value="500" id="notes-charsleft" readonly=""> Characters Remaining</div>
+
+                <div class="clearfix message" id="contactCcMessage">
+
+                    <span>Would you like Hostelworld.com's customer service team to contact you regarding your experience?</span>
+
+                    <div class="switch">
+                        <input id="contactCc" type="checkbox" name="callback" value="1">
+                        <label for="contactCc" class="rounded"></label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clearfix reviewsection greybox rounded">
+
+                <h3>My Details:</h3>
+
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                    <li>
+                        <select name="genderType" id="genderType" required="" class="needsclick">
+                            <option selected="" value="">Gender*</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Couple">Couple</option>
+                            <option value="All Male Group">All Male Group</option>
+                            <option value="All Female Group">All Female Group</option>
+                            <option value="Mixed Group">Mixed Group</option>
+                        </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+
+
+                    <li>
+                        <select name="ageGroup" required="" class="needsclick">
+                            <option selected="" value="">Age*</option>
+                            <option value="18-24">18-24</option>
+                            <option value="25-30">25-30</option>
+                            <option value="31-40">31-40</option>
+                            <option value="41+">41+</option>
+                        </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+
+                    <li>
+                        <select name="tripType" id="tripType" required="" class="needsclick">
+                            <option selected="" value="">Trip Type*</option>
+                            <option value="College Break">College Break</option>
+                            <option value="Weekend Away">Weekend Away</option>
+                            <option value="Gap Year">Gap Year</option>
+                            <option value="RTW Trip">RTW Trip</option>
+                            <option value="Regular Vacation">Regular Vacation</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+
+
+                    <li>
+                        <select name="reviewLanguage" id="reviewLanguage" class="nomargin needsclick" required="">
+                            <option selected="selected" value="">Review Language*</option>
+                                                            <option value="DA">Dansk</option>
+                                                            <option value="DE">Deutsch</option>
+                                                            <option value="EN" selected="">English</option>
+                                                            <option value="ES">Español</option>
+                                                            <option value="FR">Français</option>
+                                                            <option value="IT">Italiano</option>
+                                                            <option value="NL">Nederlands</option>
+                                                            <option value="NO">Norsk</option>
+                                                            <option value="PL">Polski</option>
+                                                            <option value="PT">Português</option>
+                                                            <option value="BR">Português (Brasil)</option>
+                                                            <option value="SV">Svenska</option>
+                                                            <option value="TR">Türk</option>
+                                                            <option value="FI">suomi</option>
+                                                            <option value="CS">český</option>
+                                                            <option value="RU">Русский</option>
+                                                            <option value="ZH">中文</option>
+                                                            <option value="JA">日本語</option>
+                                                            <option value="KO">한국어</option>
+                                                    </select>
+                        <small class="error">Please select a value.</small>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="clearfix reviewsection greybox rounded">
+
+                <h3>Would you recommend Hostelworld.com?</h3>
+
+
+                    <select name="likelyrecommend" style="margin-bottom:0.5rem;" class="needsclick">
+                        <option value="3">Definitely</option>
+                        <option value="2">Likely</option>
+                        <option value="0">Unlikely</option>
+                    </select>
+
+                    <textarea maxlength="500" rows="5" id="likelyrecommendnotes" name="likelyrecommendnotes" class="rounded" data-charsleft-id="#recommendnotes-charsleft" placeholder="Why?"></textarea>
+                    <div class="charactersremaining"><input value="500" id="recommendnotes-charsleft" readonly=""> Characters Remaining</div>
+
+            </div>
+
+            <div class="clearfix reviewsection">
+
+                <div class="leftheader reviewline">*Your review will appear on Hostelworld.com Ltd websites and on selected partner sites</div>
+                <input type="hidden" value="1" name="fromBooking">
+                <div class="rightdiv">
+                    <button title="" type="submit" rel="no-follow" class="tiny radius s_orange right">Submit Review</button>
+                </div>
+            </div>
+                </form>
