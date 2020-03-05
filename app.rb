@@ -35,6 +35,14 @@ get "/cities/:id" do
     puts cities_table.all
     @city = cities_table.where(id: params[:id]).to_a[0]
     @hostels = hostels_table.where(city_id: @city[:id])
+
+    results = Geocoder.search( @city[:name] )
+        lat_long = results.first.coordinates
+        @lat = lat_long[0]
+        @long = lat_long[1]
+        @lat_long = "#{@lat},#{@long}"
+       # "#{lat_long[0]} #{lat_long[1]}"
+
     view "city"
 end
 
@@ -61,14 +69,7 @@ get "/hostels/:id/reviews/create" do
     view "create_review"
 end
 
-#map
-get "/map" do
-        results = Geocoder.search(barcelona)
-        lat_long = results.first.coordinates
-        @lat = lat_long[0]
-        @long = lat_long[1]
-  
-end
+
 
 #Everything Below is in regards to user creation and log-in
 get "/users/new" do
