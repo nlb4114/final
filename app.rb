@@ -1,6 +1,7 @@
 # Set up for the application and database. DO NOT CHANGE. #############################
 require "sinatra"                                                                     #
 require "sinatra/reloader" if development?                                            #
+require "geocoder"                                                                    # added
 require "sequel"                                                                      #
 require "logger"                                                                      #
 require "twilio-ruby"                                                                 #
@@ -37,26 +38,26 @@ get "/cities/:id" do
     view "city"
 end
 
-# get "/cities/:id/hostel/" do
-#     @hostel = hostels_table.where(id: params[:id]).to_a[0]
-#     @reviews = reviews_table.where(hostel_id: @hostel[:id])
-#     @going_count = reviews_table.where(hostel_id: @hostel[:id]).sum(:going)
-#     @users_table = users_table
-#     view "hostel"
-# end
+get "/hostels/:id" do
+    @hostel = hostels_table.where(id: params[:id]).to_a[0]
+    @reviews = reviews_table.where(hostel_id: @hostel[:id])
+    @review = reviews_table.where(hostel_id: @hostel[:id]).sum(:recommended)
+    @users_table = users_table
+    view "hostel"
+end
 
-get "/hostel/:id/reviews/new" do
+get "/hostels/:id/reviews/new" do
     @hostel = hostels_table.where(id: params[:id]).to_a[0]
     view "new_review"
 end
 
-get "/hostel/:id/reviews/create" do
+get "/hostels/:id/reviews/create" do
     puts params
     @hostel = hostels_table.where(id: params[:id]).to_a[0]
-    reviews_table.insert(event_id: params["id"],
+    reviews_table.insert(hostel_id: params["id"],
                         user_id: session["user_id"],
-                        going: params["going"],
-                        comments: params["comments"])
+                        recommended: params["recommended"],
+                        review: params["review"])
     view "create_review"
 end
 

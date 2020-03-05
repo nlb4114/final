@@ -1,7 +1,12 @@
-<h1>Hostel Universe</h1>
+<div class = city>
+<h1><%= @city[:name] %></h1>
 <br>
-<p>text</p>
 <br>
 <% for hostel in @hostels %>
-    <p><a href="/hostels/<%= hostel[:id] %>"><%= hostel[:title] %></a></p>
+    
+    <p>
+    <img src="<%= hostel[:img_url] %>"  alt="idk" class = "responsive1">
+    <a href="/hostels/<%= hostel[:id] %>"><%= hostel[:title] %></a>
+    </p>
 <% end %>
+</div>

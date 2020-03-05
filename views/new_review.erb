@@ -1,0 +1,19 @@
+
+<h1>Leave a review for <%= @hostel[:title] %></h1>
+
+<form action="/hostels/<%= @hostel[:id] %>/reviews/create">
+  <div class="form-group">
+    <label>Would you recommend this hostel?</label>
+    <select class="form-control" name="recommended">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Review</label>
+    <textarea class="form-control" rows="3" name="review"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
