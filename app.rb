@@ -41,7 +41,6 @@ get "/cities/:id" do
         @lat = lat_long[0]
         @long = lat_long[1]
         @lat_long = "#{@lat},#{@long}"
-       # "#{lat_long[0]} #{lat_long[1]}"
 
     view "city"
 end
