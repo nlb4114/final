@@ -1,0 +1,7 @@
+<h1>Hostel Universe</h1>
+<br>
+<p>text</p>
+<br>
+<% for hostel in @hostels %>
+    <p><a href="/hostels/<%= hostel[:id] %>"><%= hostel[:title] %></a></p>
+<% end %>

@@ -8,6 +8,7 @@ DB = Sequel.connect "sqlite://#{Dir.pwd}/development.sqlite3"          #
 # New domain model - adds users
 DB.create_table! :hostels do
   primary_key :id
+  foreign_key :city_id
   String :title
   String :description, text: true
   String :address
@@ -15,7 +16,7 @@ DB.create_table! :hostels do
 end
 DB.create_table! :reviews do
   primary_key :id
-  foreign_key :event_id
+  foreign_key :hostel_id
   foreign_key :user_id
   Boolean :going
   String :comments, text: true
@@ -38,9 +39,26 @@ hostels_table = DB.from(:hostels)
 hostels_table.insert(title: "Sant Jordi", 
                     description: "another one",
                     address: "some address",
-                                        )
+                     city_id: "1"                    )
 
 hostels_table.insert(title: "Kabul", 
                     description: "Party Hostel in Barecelona",
                     address: "some address",
-                                    )
+                    city_id: "1"                )
+
+                    hostels_table.insert(title: "Mad Monkey", 
+                    description: "El Nido's second best",
+                    address: "some address",
+                     city_id: "2"                    )
+
+hostels_table.insert(title: "Outpost", 
+                    description: "Party Hostel in El Nido",
+                    address: "some address",
+                    city_id: "2"                )
+
+# Insert initial (seed) data
+cities_table = DB.from(:cities)
+
+cities_table.insert(name: "Barcelona" ) 
+
+cities_table.insert(name: "El Nido" )

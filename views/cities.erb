@@ -1,0 +1,7 @@
+<h1>Hostel Universe</h1>
+<br>
+<p>Select your city below!</p>
+<br>
+<% for city in @cities %>
+    <p><a href="/cities/<%= city[:id] %>"><%= city[:name] %></a></p>
+<% end %>

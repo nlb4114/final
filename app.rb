@@ -14,9 +14,10 @@ before { puts; puts "--------------- NEW REQUEST ---------------"; puts }       
 after { puts; }                                                                       #
 #######################################################################################
 
-events_table = DB.from(:events)
-rsvps_table = DB.from(:rsvps)
+hostels_table = DB.from(:hostels)
+reviews_table = DB.from(:reviews)
 users_table = DB.from(:users)
+cities_table = DB.from(:cities)
 
 
 before do
@@ -24,34 +25,43 @@ before do
 end
 
 get "/" do
-    puts events_table.all
-    @events = events_table.all.to_a
-    view "hostel_universe"
+    puts cities_table.all
+    @cities = cities_table.all.to_a
+    view "cities"
 end
 
-get "/events/:id" do
-    @event = events_table.where(id: params[:id]).to_a[0]
-    @rsvps = rsvps_table.where(event_id: @event[:id])
-    @going_count = rsvps_table.where(event_id: @event[:id]).sum(:going)
-    @users_table = users_table
-    view "event"
+get "/cities/:id" do
+    puts cities_table.all
+    @city = cities_table.where(id: params[:id]).to_a[0]
+    @hostels = hostels_table.where(city_id: @city[:id])
+    view "city"
 end
 
-get "/events/:id/rsvps/new" do
+# get "/cities/:id/hostel/" do
+#     @hostel = hostels_table.where(id: params[:id]).to_a[0]
+#     @reviews = reviews_table.where(hostel_id: @hostel[:id])
+#     @going_count = reviews_table.where(hostel_id: @hostel[:id]).sum(:going)
+#     @users_table = users_table
+#     view "hostel"
+# end
+
+get "/hostel/:id/reviews/new" do
     @hostel = hostels_table.where(id: params[:id]).to_a[0]
     view "new_review"
 end
 
-get "/events/:id/rsvps/create" do
+get "/hostel/:id/reviews/create" do
     puts params
     @hostel = hostels_table.where(id: params[:id]).to_a[0]
-    rsvps_table.insert(event_id: params["id"],
+    reviews_table.insert(event_id: params["id"],
                         user_id: session["user_id"],
                         going: params["going"],
                         comments: params["comments"])
     view "create_review"
 end
 
+
+#Everything Below is in regards to user creation and log-in
 get "/users/new" do
     view "new_user"
 end
