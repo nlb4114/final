@@ -1,4 +1,16 @@
 <div class = city>
+
+<div class="map">
+      <iframe
+        width="300"
+        height="125"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCtovsQvkIUWlNqtYwXY87gEd4ZSmJEhMw
+          &q=<%= @lat %>,<%= @long %>&zoom=4" allowfullscreen>
+      </iframe>
+      
+    </div>
+
 <h1><%= @city[:name] %></h1>
 <br>
 <br>

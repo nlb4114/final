@@ -61,6 +61,14 @@ get "/hostels/:id/reviews/create" do
     view "create_review"
 end
 
+#map
+get "/map" do
+        results = Geocoder.search(barcelona)
+        lat_long = results.first.coordinates
+        @lat = lat_long[0]
+        @long = lat_long[1]
+  
+end
 
 #Everything Below is in regards to user creation and log-in
 get "/users/new" do
