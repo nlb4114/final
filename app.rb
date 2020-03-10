@@ -75,11 +75,10 @@ get "/users/new" do
     view "new_user"
 end
 
-get "/users/create" do
+post "/users/create" do
     puts params
-    users_table.insert(name: params["name"],
-                        email: params["email"],
-                        password: BCrypt::Password.create(params["password"]))
+    hashed_password = BCrypt::Password.create(params["password"])
+    users_table.insert(name: params["name"], email: params["email"], password: hashed_password)
     view "create_user"
 end
 
@@ -88,27 +87,19 @@ get "/logins/new" do
 end
 
 post "/logins/create" do
-    puts params
-    email_address = params["email"]
-    password = params["password"]
-
-    @user = users_table.where(email: email_address).to_a[0]
-
-    if @user
-        if BCrypt::Password.new(@user[:password]) == password
-            session["user_id"] = @user[:id]
-            view "create_login"
-        else
-            view "create_login_failed"
-        end
+    user = users_table.where(email: params["email"]).to_a[0]
+    puts BCrypt::Password::new(user[:password])
+    if user && BCrypt::Password::new(user[:password]) == params["password"]
+        session["user_id"] = user[:id]
+        @current_user = user
+        view "create_login"
     else
         view "create_login_failed"
     end
-
-    
 end
 
 get "/logout" do
     session["user_id"] = nil
+    @current_user = nil
     view "logout"
 end
