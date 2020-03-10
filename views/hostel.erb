@@ -29,11 +29,14 @@
         <p class="mt-5">
             <a href="<%= @hostel[:url] %>" class="btn btn-primary">Book Now!</a>
         </p>
-        <br>
-        <p>Please Sign-In to Leave a Review!</p>
-        <p>
-            <a href="/hostels/<%= @hostel[:id] %>/reviews/new" class="btn btn-primary">Leave A Review!</a>
+         <p class="mt-5">
+            <% if @current_user %>
+                <a href="/hostels/<%= @hostel[:id] %>"/reviews/new" class="btn btn-primary">Leave A Review!</a>
+            <% else %>
+                <a href="/logins/new" class="btn btn-danger">Please sign in to leave a review</a>
+            <% end %>
         </p>
+        
         </div>
          <% for review in @reviews %>
             <div class="media">
