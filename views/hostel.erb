@@ -31,7 +31,7 @@
         </p>
          <p class="mt-5">
             <% if @current_user %>
-                <a href="/hostels/<%= @hostel[:id] %>"/reviews/new" class="btn btn-primary">Leave A Review!</a>
+                <a href="/hostels/<%= @hostel[:id] %> /reviews/new" class="btn btn-primary">Leave A Review!</a>
             <% else %>
                 <a href="/logins/new" class="btn btn-danger">Please sign in to leave a review</a>
             <% end %>
