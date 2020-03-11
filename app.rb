@@ -48,7 +48,7 @@ end
 get "/hostels/:id" do
     @hostel = hostels_table.where(id: params[:id]).to_a[0]
     @reviews = reviews_table.where(hostel_id: @hostel[:id])
-    @recommend_count = reviews_table.where(hostel_id: @hostel[:id]), going: true).count
+    @recommend_count = reviews_table.where(hostel_id: @hostel[:id]), recommended: (true).count
     @users_table = users_table
     view "hostel"
 end
